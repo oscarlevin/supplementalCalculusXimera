@@ -342,6 +342,10 @@
 \newcommand {\@todonotes@drawLineToLeftMargin }[0]{\if@todonotes@line \if@todonotes@fancyline \tikz [remember picture,overlay]{\tikzstyle {both}=[line width=3pt, draw, opacity=0.15]\tikzstyle {line}=[shorten >=5pt, line cap=round]\tikzstyle {head}=[shorten >=-1pt, dash pattern=on 0pt off 1pt,->]\foreach \s in {line,head}{\draw [both,\s ](inNote.north east).. controls +(0:0) and +(90:1.5)..([yshift=1ex] inText);};}\else \begin {tikzpicture}[remember picture, overlay]\draw [connectstyle]([yshift=-0.2cm] inText)-| ([xshift=0.2cm] inNote.east)-| (inNote.east);\end {tikzpicture}\fi \fi }
 \newcommand {\todototoc }[0]{ \if@todonotes@disabled \else \addcontentsline {toc}{\@ifundefined {chapter}{section}{chapter}}{\@todonotes@todolistname } \fi }
 \newcommand {\hideinstnotes }[0]{\excludecomment {instnote}}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
 \newcommand {\EC@family }[5]{\DeclareFontShape {##1}{##2}{##3}{##4}{<5><6><7><8><9><10><10.95><12><14.4><17.28><20.74><24.88><29.86><35.83>genb*##5}{}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
 \newcommand {\GetTitleString }[0]{\ifGTS@expand \expandafter \GetTitleStringExpand \else \expandafter \GetTitleStringNonExpand \fi }
