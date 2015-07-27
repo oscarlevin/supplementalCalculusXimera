@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.20)  27 JUL 2015 15:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.20)  27 JUL 2015 15:26
 entering extended mode
 **FunctionsGraphs.tex
 
@@ -972,24 +972,24 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Excluding 'instnote' comment.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
 
 (C:\Users\oscar.levin\Documents\GitHub\supplementalCalculusXimera\IntroToFuncti
 ons\FunctionsGraphs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `FunctionsGraphs.out' has not changed.
 (rerunfilecheck)             Checksum: E37C555237C284E9C80F6340F77E0CF1;58.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 25061 strings out of 493921
- 529675 string characters out of 3147264
- 653425 words of memory out of 3000000
+ 25063 strings out of 493921
+ 529697 string characters out of 3147264
+ 654425 words of memory out of 3000000
  27860 multiletter control sequences out of 15000+200000
  10948 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1001,9 +1001,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb>
-Output written on FunctionsGraphs.pdf (1 page, 80219 bytes).
+Output written on FunctionsGraphs.pdf (1 page, 82666 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
