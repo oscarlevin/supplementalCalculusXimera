@@ -1,0 +1,137 @@
+\documentclass{ximera}
+%% handout
+%% space
+%% newpage
+%% numbers
+%% nooutcomes
+
+\usepackage{amsmath, amssymb, multicol}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{comment}
+\usepackage{etoolbox} %for toggles
+\usepackage[draft]{todonotes}
+\usepackage{tikz}
+
+
+% % % % % % % % % Create instructor edition environment % % % % % % % % % % % % %
+\specialcomment{instnote}{\begingroup\vskip 1em \color{blue} \noindent{\bfseries Notes: }}{\vskip 1em\endgroup}
+\newcommand{\hideinstnotes}{\excludecomment{instnote}} %by including \hideinstnotes, all instructor notes will be hiden.
+
+
+
+\def\d{\displaystyle}
+\def\b{\mathbf}
+\def\R{\mathbf{R}}
+\def\Z{\mathbf{Z}}
+\def\st{~:~}
+\def\bar{\overline}
+\def\inv{^{-1}}
+
+
+%\pointname{pts}
+\pointsinmargin
+\marginpointname{pts}
+\addpoints
+\pagestyle{head}
+%\printanswers
+
+\hideinstnotes  %comment this line out to show instructor notes.
+
+\firstpageheader{Math 130}{\bf Functions and Graphs}{Week 1}
+
+
+\begin{document}
+\noindent\textbf{Goal:} The purpose of these activities is to better understand functions and their graphs.
+\begin{instnote}
+There are actually three main goals of this first set of activities.
+
+\begin{enumerate}
+\item Remind students about the relationship between functions and graphs (and what each of those are)
+\item Imporve students' ability to read and use function notation.
+\item Remind students about trigonometric functions, mainly sine and cosine.
+\end{enumerate}
+
+Before beginning the activity, have a brief class discussion about what a function is.  Stress that a function is simply a relationship between two quantities with the property that each value of the first quantity is related to exactly one value of the second quantity.
+
+\end{instnote}
+
+\begin{questions}
+\question Every square has both a perimeter $p$ and an area $A$.  In other words, there is a relationship between the set of perimeters of squares and the set of areas of squares.  Is this relationship a function?
+
+\begin{parts}
+	\part Is $A$ a function of $p$? Is $p$ a function of $A$?  Explain.
+	
+		\begin{solution}
+		Yes to both.  For each value of $p$, there is exactly one value of $A$ related to $p$.  Therefore $A$ is a function of $s$.  But also, for each value of $A$, there is exactly one value of $p$ related to $A$.  So $p$ is a function of $A$.
+		\end{solution}
+	\vfill
+	
+	\part We often use function notation such as $f(p) = A$.  What would $f(36)$ be equal to? Explain what $f(36)$ represents.  Include possible units for $36$ and $f(36)$.
+	
+		\begin{solution}
+		If $f(p) = A$, that means that the function $f$ takes a perimeter $p$ and gives an area $A$.  So $f(36) = 81$ (since the perimeter is 4 times the side length, this square has side length 9, so has area 81).  This means that a square with perimeter 36 cm has area of 81 sq cm.  Note that $f(36)$ is an area, so it has units such as square centimeters while the 36 is the perimeter, with units centimeters.
+		\end{solution}
+	
+	\vfill
+	
+	\part It is also true that every rectangle has a perimeter $p$ and an area $A$.  If we take this as our relationship, is $A$ a function of $p$?  Is $p$ a function of $A$?  Explain, using function notation (like $f(p) = A$).
+	
+		\begin{solution}
+		These are not functions.  The area is not a function of perimeter because there are multiple areas that correspond to rectangles of a given perimeter.  Say we did write $f(p) = A$.  Then $f(20)$ would be the area of a rectangle with perimeter 20 units.  If this rectangle was a square, then the side length would be 5 units, so we would have $f(20) = 25$ square units.  But the rectangle could also be a $3\times 7$ rectangle (which has perimeter $3+3+7+7 = 20$ units).  In that case we would say $f(20) = 21$ square units.  If $f$ is going to be a function, we must have $f(p)$ only ever be one value (for each specific value of $p$).  In fact there are infinitely many different rectangles with perimeter 20 but different areas.
+		
+		Similarly, the perimeter is not a function of area.  An area of 24 could correspond to a $2\times 12$ rectangle (with perimeter 28) but also a $4 \times 6$ rectangle (with perimeter 20), along with infinitely many other rectangles with different perimeters.
+		\end{solution}
+		
+	\vfill
+
+\begin{instnote}
+ After students have worked in groups on the above questions, discuss solutions as a class.  Stress the notation $f(p) = A$.  Point out that $f(p)$ is a number, not an instruction to compute a number.
+\end{instnote}	
+\end{parts}
+
+\newpage
+
+\begin{instnote}
+	The goal of the next question is to remind students about graphing and to illustrate the relationship between the graph of an equation and the graph of a function.  The important take-away is that when we graph a function $f$, we are graphing $y = f(x)$.  Point out that $f(x)$ \emph{is} the $y$-value corresponding to the $x$-value.
+\end{instnote}
+
+\question A nice way to represent some functions is with a \emph{graph}.  Before we think about how to do this, let's review what it means to graph an \emph{equation}.
+
+\begin{parts}
+	\part Consider the equation $y = 2x - 1$.  We can pick pairs $(x,y)$ and plug them into the equation.  Sometimes this will give a true equation, for example the pair $(3,5)$.  Some pairs will give a false equation, such as $(7,1)$.  Draw an $xy$-plane below and plot all pairs that make the equation true.
+	
+	\begin{solution}
+	The pairs that make the equation true will form a line with slope 2 and $y$-intercept 1.
+	\end{solution}
+	
+	\vfill
+	
+	\part Repeat the previous question, this time using the equation $x^2 + y^2 = 25$.  Some points to try: $(-4,3)$, $(6,1)$, etc.  What is the largest and smallest each of $x$ and $y$ could be?
+	
+	\begin{solution}
+	The graph will be a circle of radius 5, centered at the origin.
+	\end{solution}
+	
+	\vfill
+	
+	\part Both of the equations above represent relationships between values of $x$ and values of $y$.  Are the relationships functions?  How could you use function notation to represent the relationship?
+	
+	\begin{solution}
+	The first equation does represent a function.  We can say that $y$ is a function of $x$, and write $f(x) = y$.  In other words, to get the $y$ value for a given $x$ value, we compute $f(x) = 2x - 1$, which gives $y$ since $y = 2x-1$.
+	
+	The second equation is NOT a function.  For example, when $x = 3$, we could have $y$ be 4 or $-4$ and still make the equation true.
+	\end{solution}
+\end{parts}
+	
+
+\newpage
+
+\question 
+
+\end{questions}
+
+\end{document}
+
+
