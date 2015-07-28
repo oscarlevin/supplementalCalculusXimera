@@ -217,7 +217,6 @@
 \newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
 \newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
 \newcommand {\document }[0]{\endgroup \advance \docmute@nestinglevel 1\relax \ignorespaces }
-\newcommand {\maketitle }[0]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[0]{\AtBeginDocument }
 \newcommand {\reserved@a }[1]{}
