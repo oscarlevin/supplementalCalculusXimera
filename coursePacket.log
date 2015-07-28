@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.20)  28 JUL 2015 10:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.20)  28 JUL 2015 10:37
 entering extended mode
 **coursePacket.tex
 
@@ -985,7 +985,7 @@ toringNumbers.texpdfTeX warning (ext4): destination with the same identifier (n
 ame{problem.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 W
+l.57 W
       hat is the smallest factor of 45?  $\answer{3}$)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
  [2pdfTeX warning (ext4): destination with the same identifier (name{subsection
@@ -1001,14 +1001,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
 aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
-Package rerunfilecheck Info: File `coursePacket.out' has not changed.
-(rerunfilecheck)             Checksum: EFA7564F4D5CBD3CCF95523658288E9B;351.
+
+
+Package rerunfilecheck Warning: File `coursePacket.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `coursePacket.out':
+(rerunfilecheck)             Before: C70F7FC7452C4B2DA8587FFB3DAEF5E8;345
+(rerunfilecheck)             After:  8744ADD3C979625E6A388B158A57C198;334.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  )
+(\end occurred when \if on line 65 was incomplete)
+(\end occurred when \iftrue on line 65 was incomplete)
 (\end occurred when \if on line 63 was incomplete)
-(\end occurred when \iftrue on line 63 was incomplete)
-(\end occurred when \if on line 61 was incomplete)
-(\end occurred when \iftrue on line 61 was incomplete) 
+(\end occurred when \iftrue on line 63 was incomplete) 
 Here is how much of TeX's memory you used:
  25139 strings out of 493921
  531146 string characters out of 3147264
@@ -1032,7 +1039,7 @@ e1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb>
-Output written on coursePacket.pdf (2 pages, 176629 bytes).
+Output written on coursePacket.pdf (2 pages, 177040 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
