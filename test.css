@@ -1,4 +1,4 @@
-.theorem {
+.theorem::before {
   content: "Theorem";
   background-color: red;
 }
