@@ -1,6 +1,6 @@
-\documentclass{ximera}
+\documentclass{xourse}
 
-\usepackage{docmute}
+%\usepackage{docmute}
 \usepackage{amsmath, amssymb, multicol}
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -10,6 +10,8 @@
 \usepackage[draft]{todonotes}
 %\usepackage{tikz}
 \pgfplotsset{compat=1.7}
+
+\input{preamble}
 
 % % % % % % % % % Create instructor edition environment % % % % % % % % % % % % %
 \specialcomment{instnote}{\begingroup\vskip 1em \color{blue} \noindent{\bfseries Notes: }}{\vskip 1em\endgroup}
@@ -40,21 +42,27 @@ This is a collection of activities for Supplemental Calculus.
 
 \maketitle
 
-\input{Factoring/Factoring}
+\part{Welcome}
+\activity{firstExample}
+
+%\activity{Factoring/Factoring}
 
 % \renewcommand{\maketitle}{}
 %
-\section{Functions and Graphs}
+%\section{Functions and Graphs}
 %
 %\subsection{Functions}
 %
-\input{IntroToFunctions/FunctionsGraphs}
+\chapter{Introduction to Functions}
+
+\activity{IntroToFunctions/FunctionsGraphs}
 %
 %\section{Manipulating Expressions}
 %
-\subsection{Factoring}
 
-\input{Factoring/Factoring}
-\input{Factoring/FactoringNumbers}
+\part{Factoring}
+
+\activity{Factoring/Factoring}
+\activity{Factoring/FactoringNumbers}
 
 \end{document}

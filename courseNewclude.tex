@@ -1,10 +1,6 @@
 \documentclass{ximera}
-%% handout
-%% space
-%% newpage
-%% numbers
-%% nooutcomes
 
+\usepackage{newclude}
 %\usepackage{amsmath, amssymb, multicol}
 %\usepackage{graphicx}
 %\usepackage{xcolor}
@@ -13,12 +9,14 @@
 %\usepackage{etoolbox} %for toggles
 %\usepackage[draft]{todonotes}
 %%\usepackage{tikz}
-%\pgfplotsset{compat=1.7}
+\pgfplotsset{compat=1.7}
 
+%
 %% % % % % % % % % Create instructor edition environment % % % % % % % % % % % % %
 %\specialcomment{instnote}{\begingroup\vskip 1em \color{blue} \noindent{\bfseries Notes: }}{\vskip 1em\endgroup}
 %\newcommand{\hideinstnotes}{\excludecomment{instnote}} %by including \hideinstnotes, all instructor notes will be hiden.
-
+%
+%
 
 \def\d{\displaystyle}
 \def\b{\mathbf}
@@ -29,45 +27,43 @@
 \def\inv{^{-1}}
 
 
-%\pointname{pts}
-%\pointsinmargin
-%\marginpointname{pts}
-%\addpoints
-%\pagestyle{head}
-%\printanswers
 
-%\hideinstnotes  %comment this line out to show instructor notes.
 
-%\firstpageheader{Math 130}{\bf Functions and Graphs}{Week 1}
 
-\title{Factoring Numbers}
+
+
+\title{Supplemental Calculus}
 
 \begin{document}
 
-
-
 \begin{abstract}
-Before we can factor polynomials, let's review how we factor numbers.
+This is a collection of activities for Supplemental Calculus.
 \end{abstract}
+
 \maketitle
 
 
-What does it mean to \emph{factor}?  To get a feel for this, we will try some simple number factoring problems.
-
-\begin{problem}
-What is the smallest factor of 45?  $\answer{3}$
-\end{problem}
+This is some text 
 
 
-Which is not a factor of 54?  
-\begin{multipleChoice}
-\choice{3}
-\choice[correct]{5}
-\choice{9}
-\end{multipleChoice}
+\includedoc*{firstExample}
 
 
+More text.
+
+% \renewcommand{\maketitle}{}
+%
+%\section{Functions and Graphs}
+%
+%\subsection{Functions}
+%
+%\input{IntroToFunctions/FunctionsGraphs}
+%
+%\section{Manipulating Expressions}
+%
+%\subsection{Factoring}
+%
+%\input{Factoring/Factoring}
+%\input{Factoring/FactoringNumbers}
 
 \end{document}
-
-
