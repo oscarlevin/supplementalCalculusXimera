@@ -43,9 +43,9 @@ Temporary Items
 .apdisk
 
 # Tex files:
-.aux
-.pdf
-.log
-.out
-.gz
-.jax
+*.aux
+*.pdf
+*.log
+*.out
+*.gz
+*.jax
